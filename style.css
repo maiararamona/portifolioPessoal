@@ -1,0 +1,100 @@
+body {
+    background-color: darkgrey;
+    min-height: 100vh; /* altura da pagina */
+    display: flex; 
+    flex-direction: column;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: rgb(235, 29, 235);
+    display: flex;
+    flex-direction: center;
+    padding: 0px;
+    margin: 0px;  
+}
+header h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.5em; /* tamanho da fonte */
+    text-align: center; /* centraliza o texto */
+    width: 100%; /* ocupa 100% da tela */
+    color: rgb(69, 14, 49); /* cor de texto */
+}
+nav {
+    position: fixed; /* posiçao fixa na tela */
+    top: 100px;
+    left: 20px;
+}
+nav ul {
+    list-style: none; /* não aparece o ponto da lista */
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 0;
+    gap: 65px; /* espaço entre os itens */
+}
+nav a {
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+}
+main {
+    padding: 25px;
+    margin-left: 170px;
+    flex: 1;
+}
+footer {
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px
+}
+.form-contato {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  gap: 12px;
+}
+
+.form-contato label {
+  font-weight: bold;
+}
+
+.form-contato input,
+.form-contato textarea {
+  padding: 10px; /* espaçamento */
+  border: 1px solid #20fbff; /* cor da borda */
+  border-radius: 6px; /* arredondamento dos cantos */
+  font-size: 16px;
+}
+
+.form-contato button {
+  background-color: #4b4be6; /* cor de fundo do botao */
+  color: white; /* cor do texto */
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer; /* tipo de ponteiro quando passa o mouse */
+  transition: background-color 0.3s; /* transição ao mudar a cor */
+}
+
+.form-contato button:hover {
+  background-color: #3737c8; /* muda a cor quando passa o mouse */
+}
+.botao {
+    background-color: darkorchid;
+    color: white;
+    padding: 10px 20px; /* espaço interno */
+    border: 2px solid aqua; /* cor da borda */
+    border-radius:  8px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* tansiçao ao mudar de cor */
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* estilo de fonte */
+}
+.botao:hover {
+    background-color: rgb(255, 0, 212);
+}
