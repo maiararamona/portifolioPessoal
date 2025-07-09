@@ -8,7 +8,7 @@ function navegador(pagina) {
     } else if (pagina === 'formacao') { // se clicar em Formatação
       conteudo.innerHTML = `
         <h2>Formação Educacional</h2>
-        <p>Ensino médio completo. Estudante de ADS, cursando o 2º semestre. Falo português e estudo inglês</p>
+        <p>Ensino médio completo. Estudante de ADS, cursando o 2º semestre.</p>
         `;
     } else if (pagina === 'portifolio') { // se clicar em portifólio
       conteudo.innerHTML =`
